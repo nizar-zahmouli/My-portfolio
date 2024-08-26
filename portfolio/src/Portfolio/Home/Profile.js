@@ -2,9 +2,10 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./Profile.css";
 import { Footer } from "./Footer/Footer";
+import { Navbar } from "../Navbar/Navbar";
 const Profile = () => {
   return (
-    <div className="profile-container">
+    <div className="profile-container " id="home">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
@@ -72,3 +73,4 @@ const Profile = () => {
 };
 
 export default Profile;
+

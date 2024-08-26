@@ -52,6 +52,10 @@
   height: 380px;
   margin: 0 0 0 100px;
   border-radius: 50% ;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
 }
 .profile-picture-background {
   height: 92%;
@@ -60,7 +64,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .profile-picture-background:hover {
@@ -145,3 +153,62 @@ border-radius: 50%;
     width: 90%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

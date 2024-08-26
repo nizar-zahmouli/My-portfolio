@@ -1,0 +1,72 @@
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+h2{
+    border: 3px solid #43a5e3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-filter: drop-shadow(0 4px 30px rgba(67, 165, 227, .8));
+    filter: drop-shadow(0 4px 30px rgba(67, 165, 227, .8));
+    height: 70px;
+    position: relative;
+    width: 350px;
+    margin-left: 60px;
+    margin-top: -60px;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(272.38deg, #43a5e3 46.06%, #f408e8 81.53%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.progress-tech {
+    margin-bottom: 150px;
+    border-bottom: #68b8ea 1px solid;
+    box-sizing: border-box;
+    -webkit-filter: drop-shadow(0 4px 30px rgba(67, 165, 227, .2));
+    filter: drop-shadow(0 4px 30px rgba(67, 165, 227, .2));
+}
+
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
