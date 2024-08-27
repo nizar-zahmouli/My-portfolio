@@ -17,7 +17,7 @@ export const Experience = () => {
         </div>
         {/*  */}
         <div className="experience container">
-          <div className="card cart">
+          <div className="card cart ">
             <div class="card-body">
               <div className="d-flex justify-content-between">
                 <h5 class="card-title">MSDEV | Interchip </h5>

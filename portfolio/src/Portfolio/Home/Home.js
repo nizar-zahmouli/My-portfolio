@@ -12,7 +12,6 @@ export const Home = () => {
       <div >
       <Profile /> 
       <Scroll/>
-      <Footer/>
       </div>
     </div>
   )

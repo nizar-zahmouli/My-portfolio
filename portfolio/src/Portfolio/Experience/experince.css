@@ -1,6 +1,9 @@
 .experience {
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
 
 }
 .experience .cart {
@@ -18,4 +21,21 @@
  ul li {
     display: flex ;
     gap: 20px;
+ }
+
+ @media screen  and (max-width: 1100px) {
+    .experience {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .experience .cart {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 0;
+    }
+    
  }
