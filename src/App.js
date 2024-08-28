@@ -9,12 +9,11 @@ import { Contact } from "./Portfolio/ContactMe/Contact";
 function App() {
   return (
     <div className="App">
-        <Home />
-        <Skill />
-        <Experience />
+      <Home />
+      <Skill />
+      <Experience />
       <Projects />
-      <Contact/>
-      
+      <Contact />
     </div>
   );
 }
