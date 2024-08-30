@@ -1,21 +1,22 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./Profile.css";
-import { Footer } from "./Footer/Footer";
+import { Footer } from "../Footer/Footer";
 import { Navbar } from "../Navbar/Navbar";
-import { saveAs } from 'file-saver';
-import { pdf } from '@react-pdf/renderer';
+import { saveAs } from "file-saver";
+import { pdf } from "@react-pdf/renderer";
 
-import document from '../../assets/pdf/ZAHMOULI NIZAR-Developpeur Full Stack.pdf';
+import document from "../../assets/pdf/ZAHMOULI NIZAR-Developpeur Full Stack.pdf";
 const Profile = () => {
-
-  {/* const downloadPdf = async () => {
+  {
+    /* const downloadPdf = async () => {
     const fileName = "ZAHMOULI NIZAR-Developpeur Full Stack.pdf";
     const blob = await pdf(<document />).toBlob();
     saveAs(blob, fileName);
   };
 
-  */}
+  */
+  }
   return (
     <div className="profile-container " id="home">
       <div className="profile-parent">
@@ -47,13 +48,13 @@ const Profile = () => {
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    "Full Stack Developer 🖥🖥",
+                    "Full Stack Developer",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    "MERN Stack Developer 🖥🖥",
+                    "MERN Stack Developer",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    "WordPress integrator 🌐🌐",
+                    "WordPress integrator",
                     1000,
-                    "UX/UI Designer 🎨🎨 ",
+                    "UX/UI Designer",
                     1000,
                   ]}
                   wrapper="span"
@@ -71,14 +72,10 @@ const Profile = () => {
           <div className="profile-options">
             <button className="btns primary-btns">Hire Me</button>
 
-             <a 
-              href="../../assets/pdf/ZAHMOULI NIZAR-Developpeur Full Stack.pdf"
-              // target="e-blank"
-              // download="nizar-zahmouli/fullstack developer.pdf"
-             > 
-              <button className="btns highlighted-btns" > Get Resume </button>
-            </a> 
-          </div>{" "}
+            <a href="" download="nizar-zahmouli/fullstack developer.pdf">
+              <button className="btns highlighted-btns"> Get Resume </button>
+            </a>
+          </div>
         </div>
         <div className="profile-picture">
           <div className="profile-picture-background"></div>
@@ -89,4 +86,3 @@ const Profile = () => {
 };
 
 export default Profile;
-
