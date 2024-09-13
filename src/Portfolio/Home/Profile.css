@@ -12,8 +12,8 @@
   color: aliceblue;
 }
 .profile-details-name {
-  font-size: 24px;
-  font-family: "Poppins Semibold";
+  font-size: 32px;
+  font-family: "DM Sans";
 }
 .profile-details-role {
   display: flex;
@@ -22,18 +22,18 @@
 }
 .profile-details-role h1 {
   font-size: 40px;
-  font-family: cursive;
+  font-family: "DM Sans";
 }
 .primary-text {
-  color: (--white);
+  color: #fff;
 }
-.highlighted-text {
+/* .highlighted-text { 
   color: var(--dark-orange);
-}
+} */
 .profile-role-tagline {
-  font-size: 19px;
+  font-size: 24px;
   margin: 5px 0 0 0;
-  font-family: "Poppins Light";
+  font-family: "DM Sans";
 }
 .profile-options .highlighted-btns {
   margin: 0 0 0 28px;
@@ -47,15 +47,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 0 0 var(--white);
+  box-shadow: 0 1px 0 0  #fff;
   width: 380px;
   height: 380px;
   margin: 0 0 0 100px;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 .profile-picture-background {
   height: 92%;
@@ -83,12 +79,12 @@
   -ms-transition: 1s ease-out;
   -o-transition: 1s ease-out;
 }
-.colz .colz-icon i {
+.colz .colz-icon {
   color: #fff;
   padding: 8px;
   padding-left: 0px;
 }
-.colz .colz-icon i:hover {
+.colz .colz-icon a:hover{
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);

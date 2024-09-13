@@ -3,9 +3,7 @@ import "bootstrap/dist/js/bootstrap";
 import { Home } from "./Portfolio/Home/Home";
 import { Skill } from "./Portfolio/Skills/Skill";
 import { Experience } from "./Portfolio/Experience/Experience";
-import { Navbar, Scroll } from "./Portfolio/Navbar/Navbar";
 import { Projects } from "./Portfolio/Projects/Projects";
-import { Contact } from "./Portfolio/ContactMe/Contact";
 function App() {
   return (
     <div className="App">
@@ -13,7 +11,6 @@ function App() {
       <Skill />
       <Experience />
       <Projects />
-      <Contact />
     </div>
   );
 }

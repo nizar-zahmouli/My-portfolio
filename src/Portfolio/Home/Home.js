@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Profile from "./Profile";
-import { Footer } from "../Footer/Footer";
 import { Navbar, Scroll } from "../Navbar/Navbar";
 export const Home = () => {
   return (

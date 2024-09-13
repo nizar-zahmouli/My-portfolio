@@ -107,7 +107,7 @@ export const Skill = () => {
           </div>
           {/*  ***********  */}
           <div className="technology">
-            <div className="tech-label"> MongoDB </div>
+            <div className="tech-label"> Node js </div>
             <div className="progress w-75" style={{ height: "20px" }}>
               <div
                 class="progress-bar  rounded-right"
@@ -127,7 +127,7 @@ export const Skill = () => {
           </div>
           {/*  ***********  */}
           <div className="technology">
-            <div className="tech-label"> MongoDB </div>
+            <div className="tech-label"> Express js </div>
             <div className="progress w-75" style={{ height: "20px" }}>
               <div
                 class="progress-bar  rounded-right"

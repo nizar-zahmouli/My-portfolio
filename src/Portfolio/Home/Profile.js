@@ -1,12 +1,8 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import "./Profile.css";
-import { Footer } from "../Footer/Footer";
-import { Navbar } from "../Navbar/Navbar";
-import { saveAs } from "file-saver";
-import { pdf } from "@react-pdf/renderer";
+import "./Profile.css"
+import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 
-import document from "../../assets/pdf/ZAHMOULI NIZAR-Developpeur Full Stack.pdf";
 const Profile = () => {
   {
     /* const downloadPdf = async () => {
@@ -24,13 +20,13 @@ const Profile = () => {
           <div className="colz">
             <div className="colz-icon">
               <a href="https://www.facebook.com/zahmouli.nizar.3/">
-                <i className="fa fa-facebook-square"></i>
+                <FaFacebookSquare size={30} />
               </a>
               <a href="https://www.instagram.com/nizarzahmouli/">
-                <i className="fa fa-instagram"></i>
+                <FaInstagramSquare size={30} />
               </a>
               <a href="https://www.linkedin.com/in/zahmouli-nizar/">
-                <i className="fa fa-linkedin-square"></i>
+                <FaLinkedin size={30} />
               </a>
             </div>
           </div>
