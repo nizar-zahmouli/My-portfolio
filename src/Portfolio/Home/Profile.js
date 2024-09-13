@@ -1,28 +1,14 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import resume  from "./ZAHMOULI NIZAR-Developpeur Full Stack.pdf"
-import "./Profile.css"
-import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import resume from "./ZAHMOULI NIZAR-Developpeur Full Stack.pdf";
+import "./Profile.css";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Profile = () => {
-  /*function downloadURI(uri, name) {
-    var link = document.createElement("a");
-    link.download = name; // <- name instead of 'name'
-    link.href = uri;
-    link.click();
-    link.remove();
-  }
-
-  downloadURI("./ZAHMOULI NIZAR-Developpeur Full Stack.pdf", "nizar-zahmouli.pdf");*/
-  
-    /* const downloadPdf = async () => {
-    const fileName = "ZAHMOULI NIZAR-Developpeur Full Stack.pdf";
-    const blob = await pdf(<document />).toBlob();
-    saveAs(blob, fileName);
-  };
-
-  */
-  
   return (
     <div className="profile-container " id="home">
       <div className="profile-parent">
@@ -76,14 +62,9 @@ const Profile = () => {
           </div>
           {/*  */}
           <div className="profile-options">
-            <button className="btns primary-btns">Hire Me</button>
-
-            <a href={resume} target="_blank"> 
-            <button className="btns highlighted-btns">
-  
-              Get Resume
-            </button>
-             </a> 
+            <a href={resume} target="_blank">
+              <button className="highlighted-btns">Get Resume</button>
+            </a>
           </div>
         </div>
         <div className="profile-picture">

@@ -53,29 +53,12 @@ body ::-webkit-scrollbar-thumb {
   -o-transform: translateY(2px)  ;
 }
 
-.primary-btns {
-  color: white;
-  border: 2px solid linen;
-  font-size: 12px;
-  background-color: #1f2235;
-}
 /* @media only screen and (max-width: 414px) {
   .primary-btn {
     font-size: 13px;
   }
 } */
 
-.primary-btns:hover {
-  color: aliceblue;
-  border: 2px solid #ff5823;
-  background-color: #1f2235;
-}
-
-.highlighted-btns {
-  color: white;
-  font-size: 12px;
-  background-color: #ff5823;
-}
 @media only screen and (max-width: 568px) {
   .highlighted-btns {
     z-index: -900;

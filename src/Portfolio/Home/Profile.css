@@ -27,16 +27,29 @@
 .primary-text {
   color: #fff;
 }
-/* .highlighted-text { 
-  color: var(--dark-orange);
-} */
 .profile-role-tagline {
   font-size: 24px;
   margin: 5px 0 0 0;
   font-family: "DM Sans";
 }
 .profile-options .highlighted-btns {
-  margin: 0 0 0 28px;
+  border: 3px solid #43a5e3;
+  border-radius: 50px;
+  box-sizing: border-box;
+  -webkit-filter: drop-shadow(0 4px 30px rgba(67, 165, 227, 0.8));
+  filter: drop-shadow(0 4px 30px rgba(67, 165, 227, 0.8));
+  height: 70px;
+  width: 350px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(272.38deg, #43a5e3 46.06%, #f408e8 81.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 40px;
+  text-align: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 .profile-options .highlighted-btns:hover {
   margin: 0 0 0 28px;
@@ -52,6 +65,10 @@
   height: 380px;
   margin: 0 0 0 100px;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .profile-picture-background {
   height: 92%;

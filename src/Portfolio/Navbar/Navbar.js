@@ -7,7 +7,7 @@ export const Navbar = () => {
     <div id="navbar">
       <div className="contact">
         <div>
-          <MdOutlineMailLock size={30} />
+          <MdOutlineMailLock size={30}  />
           <h3>nizarzahmouli01@gmail.com</h3>
         </div>
         <div>
@@ -18,7 +18,7 @@ export const Navbar = () => {
       <div className="vertical-navbar">
         <div>
           <a href="/">
-            <h3>
+            <h3 className="siteName">
               Nizar<b>DEVS</b>
             </h3>
           </a>
@@ -49,7 +49,7 @@ export const Navbar = () => {
       <nav className="horizontal-navbar">
         <div>
           <a href="/">
-            <h3>
+            <h3 className="siteName">
               Nizar<b>DEVS</b>
             </h3>
           </a>
