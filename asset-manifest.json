@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.40a34484.css",
-    "main.js": "/My-portfolio/static/js/main.af75e689.js",
+    "main.css": "/My-portfolio/static/css/main.6e2f73fa.css",
+    "main.js": "/My-portfolio/static/js/main.94110734.js",
     "static/media/maktabti.png": "/My-portfolio/static/media/maktabti.ba86b8c51d780663243c.png",
     "static/media/blog.png": "/My-portfolio/static/media/blog.074fe48173251c88a5ad.png",
     "static/media/mooncart.png": "/My-portfolio/static/media/mooncart.a4b63f3920f0a7182b5a.png",
     "static/media/portfolio.png": "/My-portfolio/static/media/portfolio.963c87041bf77eef6fbe.png",
     "static/media/1709405156320-removebg-preview.png": "/My-portfolio/static/media/1709405156320-removebg-preview.cd6784332bc904bd9cb9.png",
     "static/media/shopito.png": "/My-portfolio/static/media/shopito.15ad71add2d04b6d0c7f.png",
+    "static/media/ZAHMOULI NIZAR-Developpeur Full Stack.pdf": "/My-portfolio/static/media/ZAHMOULI NIZAR-Developpeur Full Stack.db74d2060dbbbd2a312c.pdf",
     "static/media/sphere.png": "/My-portfolio/static/media/sphere.749591e241fb830a4b73.png",
     "index.html": "/My-portfolio/index.html",
-    "main.40a34484.css.map": "/My-portfolio/static/css/main.40a34484.css.map",
-    "main.af75e689.js.map": "/My-portfolio/static/js/main.af75e689.js.map"
+    "main.6e2f73fa.css.map": "/My-portfolio/static/css/main.6e2f73fa.css.map",
+    "main.94110734.js.map": "/My-portfolio/static/js/main.94110734.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a34484.css",
-    "static/js/main.af75e689.js"
+    "static/css/main.6e2f73fa.css",
+    "static/js/main.94110734.js"
   ]
 }
