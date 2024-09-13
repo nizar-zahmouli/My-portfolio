@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.6e2f73fa.css",
+    "main.css": "/My-portfolio/static/css/main.ea2a0afe.css",
     "main.js": "/My-portfolio/static/js/main.94110734.js",
     "static/media/maktabti.png": "/My-portfolio/static/media/maktabti.ba86b8c51d780663243c.png",
     "static/media/blog.png": "/My-portfolio/static/media/blog.074fe48173251c88a5ad.png",
@@ -11,11 +11,11 @@
     "static/media/ZAHMOULI NIZAR-Developpeur Full Stack.pdf": "/My-portfolio/static/media/ZAHMOULI NIZAR-Developpeur Full Stack.db74d2060dbbbd2a312c.pdf",
     "static/media/sphere.png": "/My-portfolio/static/media/sphere.749591e241fb830a4b73.png",
     "index.html": "/My-portfolio/index.html",
-    "main.6e2f73fa.css.map": "/My-portfolio/static/css/main.6e2f73fa.css.map",
+    "main.ea2a0afe.css.map": "/My-portfolio/static/css/main.ea2a0afe.css.map",
     "main.94110734.js.map": "/My-portfolio/static/js/main.94110734.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e2f73fa.css",
+    "static/css/main.ea2a0afe.css",
     "static/js/main.94110734.js"
   ]
 }
