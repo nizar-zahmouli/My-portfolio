@@ -127,6 +127,26 @@ export const Skill = () => {
           </div>
           {/*  ***********  */}
           <div className="technology">
+            <div className="tech-label"> Mongoose </div>
+            <div className="progress w-75" style={{ height: "20px" }}>
+              <div
+                class="progress-bar  rounded-right"
+                role="progressbar"
+                style={{
+                  width: "65%",
+                  backgroundColor: "#2a2344",
+                  border: "1px solid #fff",
+                }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                65%
+              </div>
+            </div>
+          </div>
+          {/*  ***********  */}
+          <div className="technology">
             <div className="tech-label"> Express js </div>
             <div className="progress w-75" style={{ height: "20px" }}>
               <div
@@ -145,7 +165,87 @@ export const Skill = () => {
               </div>
             </div>
           </div>
-          {/*  ***********  */}   
+          {/*  ***********  */}
+          <div className="technology">
+            <div className="tech-label">Bootstrap </div>
+            <div className="progress w-75" style={{ height: "20px" }}>
+              <div
+                class="progress-bar  rounded-right"
+                role="progressbar"
+                style={{
+                  width: "65%",
+                  backgroundColor: "#2a2344",
+                  border: "1px solid #fff",
+                }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                65%
+              </div>
+            </div>
+          </div>
+          {/*  ***********  */}
+          <div className="technology">
+            <div className="tech-label">React bootstrap </div>
+            <div className="progress w-75" style={{ height: "20px" }}>
+              <div
+                class="progress-bar  rounded-right"
+                role="progressbar"
+                style={{
+                  width: "70%",
+                  backgroundColor: "#2a2344",
+                  border: "1px solid #fff",
+                }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+          {/*  ***********  */}
+          <div className="technology">
+            <div className="tech-label"> Tailwind CSS </div>
+            <div className="progress w-75" style={{ height: "20px" }}>
+              <div
+                class="progress-bar  rounded-right"
+                role="progressbar"
+                style={{
+                  width: "65%",
+                  backgroundColor: "#2a2344",
+                  border: "1px solid #fff",
+                }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                65%
+              </div>
+            </div>
+          </div>
+          {/*  ***********  */}
+          <div className="technology">
+            <div className="tech-label"> Rest API </div>
+            <div className="progress w-75" style={{ height: "20px" }}>
+              <div
+                class="progress-bar  rounded-right"
+                role="progressbar"
+                style={{
+                  width: "55%",
+                  backgroundColor: "#2a2344",
+                  border: "1px solid #fff",
+                }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                55%
+              </div>
+            </div>
+          </div>
+          {/*  ***********  */}
         </div>
       </section>
       <Scroll />
