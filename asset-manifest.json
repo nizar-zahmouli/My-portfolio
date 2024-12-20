@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.ea2a0afe.css",
-    "main.js": "/My-portfolio/static/js/main.1d574ae8.js",
+    "main.css": "/My-portfolio/static/css/main.92336e86.css",
+    "main.js": "/My-portfolio/static/js/main.d9630188.js",
     "static/media/maktabti.png": "/My-portfolio/static/media/maktabti.ba86b8c51d780663243c.png",
     "static/media/blog.png": "/My-portfolio/static/media/blog.074fe48173251c88a5ad.png",
     "static/media/mooncart.png": "/My-portfolio/static/media/mooncart.a4b63f3920f0a7182b5a.png",
     "static/media/portfolio.png": "/My-portfolio/static/media/portfolio.963c87041bf77eef6fbe.png",
     "static/media/1709405156320-removebg-preview.png": "/My-portfolio/static/media/1709405156320-removebg-preview.cd6784332bc904bd9cb9.png",
     "static/media/shopito.png": "/My-portfolio/static/media/shopito.15ad71add2d04b6d0c7f.png",
-    "static/media/ZAHMOULI NIZAR-Developpeur Full Stack.pdf": "/My-portfolio/static/media/ZAHMOULI NIZAR-Developpeur Full Stack.db74d2060dbbbd2a312c.pdf",
+    "static/media/ZAHMOULI NIZAR-Developpeur Full Stack.pdf": "/My-portfolio/static/media/ZAHMOULI NIZAR-Developpeur Full Stack.2f3cd10aac182da49327.pdf",
     "static/media/sphere.png": "/My-portfolio/static/media/sphere.749591e241fb830a4b73.png",
     "index.html": "/My-portfolio/index.html",
-    "main.ea2a0afe.css.map": "/My-portfolio/static/css/main.ea2a0afe.css.map",
-    "main.1d574ae8.js.map": "/My-portfolio/static/js/main.1d574ae8.js.map"
+    "main.92336e86.css.map": "/My-portfolio/static/css/main.92336e86.css.map",
+    "main.d9630188.js.map": "/My-portfolio/static/js/main.d9630188.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea2a0afe.css",
-    "static/js/main.1d574ae8.js"
+    "static/css/main.92336e86.css",
+    "static/js/main.d9630188.js"
   ]
 }
