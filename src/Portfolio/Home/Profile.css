@@ -179,6 +179,24 @@
     left: 0;
   }
 }
+@media screen and (max-width: 430px) {
+  .profile-container {
+    display: flex;
+    width: 430px;
+    flex-direction: column;
+  }
+  .profile-parent {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    left: 0;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .profile-container {
