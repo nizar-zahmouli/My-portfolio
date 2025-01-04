@@ -3,7 +3,6 @@ import shapeImg from "../../assets/image/sphere.png";
 import maktabti from "../../assets/image/project/maktabti.png";
 import shopito from "../../assets/image/project/shopito.png";
 import mooncart from "../../assets/image/project/mooncart.png";
-import blog from "../../assets/image/project/blog.png";
 import profile from "../../assets/image/project/portfolio.png";
 
 export const Projects = () => {
@@ -39,30 +38,23 @@ export const Projects = () => {
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-              <a
-                href="https://github.com/nizar-zahmouli/Shoppito-App-frontend"
-                target="e_blank"
-              >
+              <a href="https://shoppito-app.vercel.app" target="e_blank">
                 <img
                   src={shopito}
-                  class="w-100 shadow-1-strong rounded mb-4"
+                  class="w-100 shadow-1-strong rounded mb-4 "
                   alt="Boat on Calm Water"
                 />
               </a>
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-              <img
-                src={blog}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Waves at Sea"
-              />
-
-              <img
-                src={profile}
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Yosemite National Park"
-              />
+              <a href="#navbar">
+                <img
+                  src={profile}
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </a>
             </div>
           </div>
           {/* <!-- Gallery --> */}
